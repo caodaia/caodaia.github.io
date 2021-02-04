@@ -1,0 +1,88 @@
+.darkMode {
+  .card {
+    background: #27293d;
+  }
+
+  .btn {
+    background: #27293d;
+    color: var(--white);
+
+    &:hover {
+      color: var(--white) !important;
+    }
+  }
+
+  .sidebar {
+    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  .dropdown-menu {
+    background: linear-gradient(#222a42, #1d253b);
+
+    .dropdown-item {
+      color: var(--white);
+
+      &:hover {
+        background: transparent;
+        color: var(--blue);
+      }
+    }
+  }
+
+  .search-control {
+    background: linear-gradient(#222a42, #1d253b) !important;
+
+    .search-box {
+      color: var(--white) !important;
+    }
+
+    .btn--close {
+      color: var(--white) !important;
+    }
+  }
+
+  .form-control, .form-control:focus {
+    background: #27293d;
+    color: var(--white);
+    border-color: #2b3553;
+
+    &:disabled {
+      background: #1d253b;
+      color: #344675;
+      cursor: not-allowed;
+    }
+
+    &:read-only {
+      background: #27293d;
+      color: var(--white);
+      border-color: #2b3553;
+      cursor: pointer;
+    }
+  }
+
+  .nav-tabs {
+    background: #27293d !important;
+  }
+
+  tab {
+    .pane {
+      background: #27293d !important;
+    }
+  }
+
+  .navbar {
+    &.show-controls {
+      background: #27293d !important;
+    }
+  }
+
+  .controls {
+    &.show {
+      background: #27293d !important;
+    }
+  }
+
+  .sub-menu_drop .sub-drop-item {
+    color: var(--white) !important;
+  }
+}

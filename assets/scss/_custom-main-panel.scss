@@ -1,0 +1,39 @@
+.main-panel {
+  .content {
+    padding: 80px 30px 30px 280px;
+    min-height: calc(100vh - 85px);
+    transition: all 0.5s;
+  }
+
+  &.mini {
+    .content {
+      padding: 80px 30px 30px 130px;
+    }
+  }
+}
+
+.mini {
+  .footer {
+    padding-left: 130px !important;
+  }
+}
+
+.is-search {
+  .toggle-controls {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-panel, .main-panel.mini {
+    .content {
+      padding: 80px 30px 30px 30px;
+    }
+  }
+  .mini {
+    .footer {
+      padding-left: 30px !important;
+    }
+  }
+}

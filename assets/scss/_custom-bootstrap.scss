@@ -1,0 +1,58 @@
+.card {
+  border-radius: 0.3rem;
+}
+
+.btn {
+  &:hover {
+    color: var(--dark) !important;
+  }
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus, button:focus, .btn:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: 0 none !important;
+}
+
+.dropdown-menu {
+  &-center {
+    left: 50% !important;
+    top: 100% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+.dropdown-item {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+
+    * {
+      text-decoration: none !important;
+    }
+  }
+}
+
+.card-header {
+  background: transparent !important;
+  border-bottom: 0 !important;
+}

@@ -1,0 +1,92 @@
+.red, .blue, .yellow {
+  .nav {
+    li a p {
+      color: var(--white) !important;
+    }
+
+    &-icon {
+      color: var(--white) !important;
+    }
+  }
+
+  .logo .logo-text {
+    color: var(--white) !important;
+  }
+}
+
+.red {
+  .btn-primary {
+    background: var(--red);
+    border-color: var(--red);
+
+    &.active, &:focus, &:active {
+      background: var(--red) !important;
+      border-color: var(--red) !important;
+    }
+  }
+}
+
+.blue {
+  .btn-primary {
+    background: var(--blue);
+    border-color: var(--blue);
+
+    &.active, &:focus, &:active {
+      background: var(--blue) !important;
+      border-color: var(--blue) !important;
+    }
+  }
+}
+
+.yellow {
+  .btn-primary {
+    background: var(--yellow);
+    border-color: var(--yellow);
+
+    &.active, &:focus, &:active {
+      background: var(--yellow) !important;
+      border-color: var(--yellow) !important;
+    }
+  }
+}
+
+.white {
+  .logo {
+    color: var(--dark) !important;
+
+    .logo-text {
+      color: var(--dark) !important;
+    }
+
+    &:after {
+      background: var(--dark) !important;
+      opacity: 0.3;
+    }
+  }
+
+  .nav {
+    &-icon {
+      color: var(--dark) !important;
+    }
+
+    a {
+      p {
+        color: var(--dark) !important;
+      }
+
+      &.active {
+        &:before {
+          background: var(--blue) !important;
+        }
+
+        .nav-icon {
+          color: var(--blue) !important;
+        }
+
+        p {
+          color: var(--blue) !important;
+        }
+      }
+    }
+  }
+}
